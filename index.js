@@ -8,4 +8,4 @@ bot.on('ready', function() {
     console.log("conected");
 });
 
-bot.login("NDM0NzcyODY4MzEyNTk2NDg3.DbPRVw.AIk-pP9b0kynoyfoqgBQ-VhoQoc");
+bot.login(process.env.TOKEN);
